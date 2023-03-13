@@ -8,8 +8,6 @@ body{
     background-image: url(./Ressources/Pictures/bright-pop-landscape-design.jpg);
     background-size: auto;
     color: #ffffffcc;
-
-
 }
 .box{
     width: fit-content;
@@ -17,7 +15,7 @@ body{
     border: 2px solid black;
     padding: 10px 10px 10px 10px;
     margin: 20px 20px 20px 20px ;
-    background-color: #00000050;
+    background-color: #00000060;
     border: 10px solid transparent;
     border-radius: 4px 4px 4px 4px;
     animation: neon-border 1s ease-in-out infinite alternate;
@@ -26,7 +24,6 @@ body{
     font-family: 'Neonderthaw';
     color: #ffffffcc;
    }
-
 .warp-issue{
     flex-wrap: nowrap;
 }
@@ -35,11 +32,9 @@ body{
         flex-wrap: wrap;
     }
 }
-
 @keyframes neon-border {
     from {
         box-shadow: 0 0 10px orangered;
-
     }
     to {
         box-shadow: 0 0 20px orangered;
